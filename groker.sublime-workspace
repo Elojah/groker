@@ -1,0 +1,1772 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"raw",
+				"raw_eta_data"
+			],
+			[
+				"sta",
+				"StatusCreated\t Ɩ"
+			],
+			[
+				"w",
+				"WriteHeader\t ƒ"
+			],
+			[
+				"add",
+				"addUserPSQL\t ƒ"
+			],
+			[
+				"P",
+				"Password"
+			],
+			[
+				"D",
+				"DB\tstruct ʈ"
+			],
+			[
+				"psql",
+				"psql.Client\t(init.go)"
+			],
+			[
+				"Pr",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"Bui",
+				"BuildSchemas\terr error ƒ"
+			],
+			[
+				"testlo",
+				"test_login\t ν"
+			],
+			[
+				"test_table",
+				"test_table_user\t ν"
+			],
+			[
+				"testab",
+				"test_table_user\t ν"
+			],
+			[
+				"table",
+				"tableNames\tmap[string]string ν"
+			],
+			[
+				"Status",
+				"StatusForbidden\t Ɩ"
+			],
+			[
+				"fake",
+				"fake_user\tuser.User ν"
+			],
+			[
+				"New",
+				"NewDecoder\t(validators.go)"
+			],
+			[
+				"Us",
+				"UserPublic\tstruct ʈ"
+			],
+			[
+				"User",
+				"UserPublic"
+			],
+			[
+				"wrong",
+				"wrongUser"
+			],
+			[
+				"wron",
+				"wrongUser\tuser.User ν"
+			],
+			[
+				"mux",
+				"mux\t*http.ServeMux ν"
+			],
+			[
+				"Error",
+				"Errorf\t ƒ"
+			],
+			[
+				"Err",
+				"Errorf"
+			],
+			[
+				"redisU",
+				"redisUser\tuser.User ν"
+			],
+			[
+				"E",
+				"Err\terror ƒ"
+			],
+			[
+				"rd",
+				"rdStatus\t*redis.StatusCmd ν"
+			],
+			[
+				"val",
+				"val\t[]interface{} ν"
+			],
+			[
+				"HM",
+				"HMGet\t*redis.SliceCmd ƒ"
+			],
+			[
+				"fakre",
+				"fakeRedisUser"
+			],
+			[
+				"fak",
+				"fake_user\tuser.User ν"
+			],
+			[
+				"H",
+				"HashPassword"
+			],
+			[
+				"help",
+				"helpers\t package ρ"
+			],
+			[
+				"L",
+				"Login\tstring ν"
+			],
+			[
+				"fi",
+				"FirstName\tstring ν"
+			],
+			[
+				"publ",
+				"publicUser\tuser.UserPublic ν"
+			],
+			[
+				"basi",
+				"basicUserPSQL\tpublicUser user.UserPublic, ok bool ƒ"
+			],
+			[
+				"pa",
+				"package user\t ʂ"
+			],
+			[
+				"Hand",
+				"HandleCtx\t(types.go)"
+			],
+			[
+				"pack",
+				"package context\t ʂ"
+			],
+			[
+				"int",
+				"int64\tbuilt-in ʈ"
+			],
+			[
+				"Get",
+				"GetPublicInfos\t(main.go)"
+			],
+			[
+				"Client",
+				"Client\t*sql.DB ν"
+			],
+			[
+				"valid",
+				"validUser\tbuilt-in ν"
+			],
+			[
+				"vali",
+				"validUser"
+			],
+			[
+				"has",
+				"hashPassword\t[]byte ƒ"
+			],
+			[
+				"basicUser",
+				"basicUserPSQL\t(user.go)"
+			],
+			[
+				"byte",
+				"bytea\t(init.go)"
+			],
+			[
+				"TestV",
+				"TestValidate\t ƒ"
+			],
+			[
+				"test",
+				"test_login"
+			],
+			[
+				"stmt",
+				"stmt\t*sql.Stmt ν"
+			],
+			[
+				"B",
+				"BuildSchemas\t(init.go)"
+			],
+			[
+				"sett",
+				"settings\tmodule"
+			],
+			[
+				"erro",
+				"error\tinterface ¡"
+			],
+			[
+				"cre",
+				"createTables"
+			],
+			[
+				"Re",
+				"NewRequest\t*http.Request, error ƒ"
+			],
+			[
+				"hash",
+				"hashPassword\t(user.go)"
+			],
+			[
+				"redis",
+				"redis\t package ρ"
+			],
+			[
+				"fa",
+				"fakeReponseWriter"
+			],
+			[
+				"Res",
+				"ResponseWriter\tinterface ¡"
+			],
+			[
+				"Test",
+				"TestValidate"
+			],
+			[
+				"config",
+				"configFile\t ν"
+			],
+			[
+				"confgi",
+				"configFile"
+			],
+			[
+				"I",
+				"init\tfunc init() ʂ"
+			],
+			[
+				"tes",
+				"testing\t package ρ"
+			],
+			[
+				"cofi",
+				"config\t package ρ"
+			],
+			[
+				"sha512",
+				"sha512\t package ρ"
+			],
+			[
+				"crypto",
+				"crypto\t package ρ"
+			],
+			[
+				"crede",
+				"credentials\tUser ν"
+			],
+			[
+				"Valida",
+				"Validate\t(user.go)"
+			],
+			[
+				"pac",
+				"package auth\t ʂ"
+			],
+			[
+				"Ne",
+				"NewDecoder\t*json.Decoder ƒ"
+			],
+			[
+				"HandlerFu",
+				"HandlerFunc {}\tfunc() {...} ʂ"
+			],
+			[
+				"HandleF",
+				"HandleFunc\t ƒ"
+			],
+			[
+				"Unm",
+				"Unmarshal\terror ƒ"
+			],
+			[
+				"Sta",
+				"StatusAccepted\t Ɩ"
+			],
+			[
+				"Fa",
+				"false\t Ɩ"
+			],
+			[
+				"auth",
+				"authUser"
+			],
+			[
+				"authPro",
+				"authProtect\t ƒ"
+			],
+			[
+				"Un",
+				"StatusUnauthorized\t Ɩ"
+			],
+			[
+				"aut",
+				"authorizer\tAuthorizer ν"
+			],
+			[
+				"Co",
+				"Conf\t(init.go)"
+			],
+			[
+				"conf",
+				"config\t package ρ"
+			],
+			[
+				"Clien",
+				"Client\t*sql.DB ν"
+			],
+			[
+				"init",
+				"initRedis"
+			],
+			[
+				"iout",
+				"ioutil\t package ρ"
+			],
+			[
+				"import",
+				"import\timport (...) ʂ"
+			],
+			[
+				"M",
+				"Marshal\t[]byte, error ƒ"
+			],
+			[
+				"pr",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"Init",
+				"InitPSQL"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"Sprin",
+				"Sprintf\tstring ƒ"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"Pri",
+				"Printf\tn int, err error ƒ"
+			],
+			[
+				"filep",
+				"filepath\tstring ν"
+			],
+			[
+				"liste",
+				"listen_routes\t ƒ"
+			],
+			[
+				"Han",
+				"HandleFunc\t ƒ"
+			],
+			[
+				"cancel",
+				"cancel_spot_charter\tfunction"
+			],
+			[
+				"speci",
+				"special_chars"
+			],
+			[
+				"input",
+				"input_list"
+			],
+			[
+				"print",
+				"println\tprintln!(…)"
+			],
+			[
+				"inpu",
+				"input_to_syntax_tree"
+			],
+			[
+				"main",
+				"main_charterer"
+			],
+			[
+				"need",
+				"need_reload"
+			],
+			[
+				"new_ins",
+				"new_instance_item"
+			],
+			[
+				"existin",
+				"existing_instance"
+			],
+			[
+				"newins",
+				"new_instance_item\tstatement"
+			],
+			[
+				"SpotCHa",
+				"SpotCharter\tclass"
+			],
+			[
+				"_ma",
+				"_match_spot_charter\tfunction"
+			],
+			[
+				"exist",
+				"existing_instance"
+			],
+			[
+				"cance",
+				"cancel_spot_charter"
+			],
+			[
+				"exis",
+				"existing_instance\tstatement"
+			],
+			[
+				"proc",
+				"proc_reload_fields\tstatement"
+			],
+			[
+				"depart",
+				"departure_zone_id"
+			],
+			[
+				"ffsc",
+				"ff_sc\tforstmt"
+			],
+			[
+				"proces",
+				"processed_item"
+			],
+			[
+				"vessel",
+				"vessel\tmodule"
+			],
+			[
+				"a",
+				"adjust_rate_value\tfunction"
+			],
+			[
+				"SpotCha",
+				"SpotCharterLoader\tclass"
+			],
+			[
+				"zoneid",
+				"zone_id_fields"
+			],
+			[
+				"zone_id",
+				"zone_id_fields"
+			],
+			[
+				"depar",
+				"departure_zone_id"
+			],
+			[
+				"arrivalzon",
+				"arrival_zone_id"
+			],
+			[
+				"dates",
+				"dates_field"
+			],
+			[
+				"arrival",
+				"arrival_zone\t(charter.py)"
+			],
+			[
+				"Spot",
+				"SpotCharterLoader"
+			],
+			[
+				"str",
+				"str\tclass"
+			],
+			[
+				"fix",
+				"fixture"
+			],
+			[
+				"no",
+				"now\tfunction"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "git bl",
+		"selected_items":
+		[
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"gitgutt",
+				"Preferences: GitGutter Key Bindings"
+			],
+			[
+				"git b",
+				"Git: Blame"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"git ",
+				"Git: Blame"
+			],
+			[
+				"prefkey",
+				"Preferences: Key Bindings"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"pref set",
+				"Preferences: Settings"
+			],
+			[
+				"gitb",
+				"Git: Blame"
+			],
+			[
+				"jsonre",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"md",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"",
+				"File Navigator: Open"
+			],
+			[
+				"gi",
+				"Git: Blame"
+			],
+			[
+				"file",
+				"File: Delete"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"p",
+				"Preferences: Settings"
+			],
+			[
+				"floobit",
+				"Floobits - Settings (~/.floorc.json)"
+			],
+			[
+				"floobits",
+				"Floobits - Help"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"floo",
+				"Floobits - Complete Sign Up"
+			],
+			[
+				"prefere",
+				"Preferences: Settings"
+			],
+			[
+				"g",
+				"Git: Blame"
+			],
+			[
+				"diff",
+				"Diffy Cleanup"
+			],
+			[
+				"disabl",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"enab",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"anacon",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anacondaena",
+				"Anaconda: Enable linting on this file"
+			],
+			[
+				"anaconset",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"set syntax jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"yaml o",
+				"Serialized Data Converter: YAML to JSON"
+			],
+			[
+				"jsontoy",
+				"Serialized Data Converter: JSON to YAML"
+			],
+			[
+				"set syn ym",
+				"Set Syntax: YAML"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"git blae",
+				"Git: Blame"
+			],
+			[
+				"pack li",
+				"Package Control: List Packages"
+			],
+			[
+				"pack extr",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"set syntaxplate",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set syntaxte",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"indent",
+				"Indent XML"
+			],
+			[
+				"pack list",
+				"Package Control: List Packages"
+			],
+			[
+				"set syntate",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set syntax text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"set syntat",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syntajs",
+				"Set Syntax: JSON"
+			],
+			[
+				"sortl",
+				"Sort Lines"
+			],
+			[
+				"set syntax te",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pref ke",
+				"Preferences: Key Bindings"
+			],
+			[
+				"jres",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"set synjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"jon",
+				"Set Syntax: JSON"
+			],
+			[
+				"text pastry",
+				"Text Pastry: Menu"
+			],
+			[
+				"ky",
+				"Preferences: Key Bindings"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"extrac",
+				"PackageResourceViewer: Extract Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 278.0,
+		"history":
+		[
+			"wesh",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/ternflushing_spider.py",
+		"/home/hdezier/.gitconfig",
+		"/home/hdezier/code/ct-pipeline/.git/COMMIT_EDITMSG",
+		"/home/hdezier/code/ct-pipeline/.git/rebase-merge/git-rebase-todo",
+		"/home/hdezier/code/ct-pipeline/.gitconfig",
+		"/home/hdezier/.bashrc",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/hastings_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/pa_spiders/hma_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/huelva_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/abidjan_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/bonny_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/sines_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/hazira_spider.py",
+		"/home/hdezier/Downloads/log_Sines_434_19_34390_2.json",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/darwin_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/aliaga_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/dahej_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/colombia_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/cartagena_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/haldia_dock_spider.py",
+		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/gwangyang_spider.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/port_call.py",
+		"/home/hdezier/code/ct-pipeline/etl/algo/spotcharter/update_spot_charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/pipelines/spot_charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/algo/spotcharter/timecharter.py",
+		"/home/hdezier/code/ct-pipeline/etl/restful_api/controllers.py",
+		"/home/hdezier/code/ct-pipeline/etl/scrapinghubretrieve/scbase.py",
+		"/home/hdezier/code/ct-pipeline/etl/restful_api/resource_factory/spot_charter.py",
+		"/home/hdezier/.config/terminator/config",
+		"/home/hdezier/code/ct-pipeline/etl/tests/test_eta.py",
+		"/home/hdezier/code/ct-pipeline/etl/loading/eta.py",
+		"/home/hdezier/code/ct-pipeline/etl/transform/eta.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/charters/spot_charters.py",
+		"/home/hdezier/code/ct-pipeline/etl/utils/log.py",
+		"/home/hdezier/code/ct-pipeline/etl/cli/data/kpler_extract.py",
+		"/home/hdezier/code/ct-pipeline/etl/config.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/genoa_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/charters/raw_spot_charters/build_items.py",
+		"/home/hdezier/code/ct-pipeline/etl/es_utils/zone_search.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/marseille_pa.py",
+		"/home/hdezier/code/ct-pipeline/kpler_data/port_authorities/pa_pipeline/not_loaded/2017-05-22T134638-434-198-4-Genoa.js",
+		"/home/hdezier/code/ct-pipeline/etl/restful_api/resource_factory/base_model.py",
+		"/home/hdezier/code/ct-pipeline/etl/transform/vessel.py",
+		"/home/hdezier/.config/sublime-text-3/Packages/Better Bookmarks/Default.sublime-keymap",
+		"/home/hdezier/code/ct-pipeline/etl/restful_api/handlers/vesselmatcher.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/rotterdam_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/enums.py",
+		"/home/hdezier/code/ct-pipeline/ct-pipeline.sublime-project",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/rio_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/santos_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/sines_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/swinoujscie_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/salvador_de_bahia_pa.py",
+		"/home/hdezier/code/go/src/github.com/elojah/authserver/Dockerfile",
+		"/home/hdezier/code/go/src/github.com/elojah/authserver/Makefile",
+		"/usr/lib/go-1.8/src/database/sql/sql.go",
+		"/home/hdezier/code/go/src/authserver/config/init.go",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/ennore_pa.py",
+		"/home/hdezier/code/go/src/authserver/context/types.go",
+		"/home/hdezier/code/go/src/authserver/main.go",
+		"/home/hdezier/code/go/src/authserver/helpers/hash.go",
+		"/home/hdezier/code/go/src/authserver/auth/user.go",
+		"/home/hdezier/code/go/src/authserver/auth/auth_test.go",
+		"/home/hdezier/code/go/src/authserver/conf.test.json",
+		"/home/hdezier/code/go/src/authserver/.gitignore",
+		"/home/hdezier/code/ct-pipeline/etl/scrapy_retrieve/scrapy_mixin.py",
+		"/usr/lib/go-1.8/src/net/http/request.go",
+		"/home/hdezier/code/go/src/authserver/conf.json",
+		"/home/hdezier/code/go/src/authserver/redis/init.go",
+		"/home/hdezier/code/go/src/authserver/errors/types.go",
+		"/usr/lib/go-1.8/src/encoding/json/stream.go",
+		"/home/hdezier/.config/sublime-text-3/Packages/GoSublime/Default (Linux).sublime-keymap",
+		"/home/hdezier/Downloads/log_Darwin_434_52_26770_12.json",
+		"/home/hdezier/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/hdezier/code/go/src/test/conf.json",
+		"/home/hdezier/code/go/src/test/Makefile",
+		"/home/hdezier/code/go/src/test/Dockerfile",
+		"/home/hdezier/code/go/src/test/test.go",
+		"/home/hdezier/code/go/src/test/conf/init.go",
+		"/home/hdezier/code/go/src/test/psql/init.go",
+		"/home/hdezier/code/go/src/test/conf.yaml",
+		"/home/hdezier/code/kp-deployment/crontabs/crontab_lpg_production",
+		"/home/hdezier/code/kp-deployment/configurations/oil_staging/DATABASE_URL",
+		"/home/hdezier/code/kp-deployment/configurations/oil_staging/DATA_DIR",
+		"/home/hdezier/code/kp-deployment/configurations/oil_staging/SH_CONSUMED_TAG",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/port_authorities/gwangyang_pa.py",
+		"/home/hdezier/code/ct-pipeline/etl/algo/spotcharter/match_portcall.py",
+		"/home/hdezier/code/ct-pipeline/etl/tests/algo/spotcharter/match_portcall/test_spot_charter_from_port_call_v2.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/google_api/update.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/player.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/session.py",
+		"/home/hdezier/code/ct-pipeline/etl/tests/extraction/test_spot_charters.py",
+		"/home/hdezier/test/rust/tuto/guessing_game/src/main.rs",
+		"/home/hdezier/test/rust/tuto/guessing_game/Cargo.toml",
+		"/home/hdezier/code/ct-pipeline/etl/tests/pipelines/spot_charter/test_load_item.py",
+		"/home/hdezier/code/ct-pipeline/etl/transform/source_data.py",
+		"/home/hdezier/code/ct-pipeline/etl/es_utils/trade.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/etl_session.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/ais/ais_loader.py",
+		"/usr/lib/python2.7/contextlib.py",
+		"/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py",
+		"/home/hdezier/code/ct-pipeline/etl/tests/mixins/spot_charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/pipelines/eta.py",
+		"/home/hdezier/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/hdezier/code/meuh/sandbox/hdezier/config/ubuntu/packages.json",
+		"/home/hdezier/test/rust/tuto/src/lib.rs",
+		"/home/hdezier/test/test.rs",
+		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/vessel.py",
+		"/home/hdezier/code/ct-pipeline/etl/algo/trade.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/trade.py",
+		"/home/hdezier/code/ct-pipeline/etl/tests/restful_api/test_spot_charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/tests/mixins/player.py",
+		"/usr/local/lib/python2.7/dist-packages/Flask_RESTful-0.3.5-py2.7.egg/flask_restful/__init__.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/restful_api/resource_factory/port_call.py",
+		"/home/hdezier/code/ct-pipeline/etl/extraction/ais/shipSpottingPositions.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/helpers/enum_helper.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/1f26fa5bfd9_change_external_flow_type_to_use_enum.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/2a599b32a572_add_fixture_source_eta.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/505a5a89be5a_modify_port_call_model_for_spot_charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/675116ab871_rm_trade_status.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/3359e7e94143_several_unlocodes_per_zones.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/5451ed5bf88_change_enum_of_trade_link_constraint.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/512d09bb6c0b_add_is_option_column_spot_charter.py",
+		"/home/hdezier/code/ct-pipeline/etl/utils/lock.py",
+		"/home/hdezier/code/ct-pipeline/etl/cli/data/refresh_controllers.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/27a97ae336a8_add_enum_in_port_call_table.py",
+		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/117d3ec132e1_spot_charter_status_enum.py"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 351.0,
+		"where_history":
+		[
+			"",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, -/home/hdezier/code/ct-pipeline/logs/ct-pipeline.log, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags,\n-/home/hdezier/code/ct-pipeline/code_review/*,\n-/home/hdezier/code/ct-pipeline/.coverage,\n-/home/hdezier/code/ct-pipeline/logs/ct-pipeline.log, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, -/home/hdezier/code/ct-pipeline/logs/ct-pipeline.log, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, -/home/hdezier/code/ct-pipeline/logs/ct-pipeline.logs, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, -/home/hdezier/code/ct-pipeline/logs/, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, /home/hdezier/code/ct-pipeline/etl/extraction",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, /home/hdezier/code/ct-pipeline/etl/extraction/charters",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, /home/hdezier/code/ct-frontend/src/components/chartercontracts/",
+			"-/home/hdezier/code/ct-pipeline/tags, -/home/hdezier/code/ct-pipeline/code_review/*, -/home/hdezier/code/ct-pipeline/.coverage, /home/hdezier/code/ct-pipeline/",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, /home/hdezier/code/kpler-deployment/",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-frontend/, *.js",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-frontend/, *.html",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-frontend/",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/etl/, *.py",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/etl/tests/s, *.py",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/etl/tests/s, *.py, /home/hdezier/code/lng-data/etl/extraction/ship_agents/",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/etl/tests/s, *.py, /home/hdezier/code/lng-data/etl/extraction/ship_agents/*",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/etl/tests/s, *.py",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, /home/hdezier/code/lng-data/etl/tests/*, *.py",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/etl/tests/*, *.py",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*, -/home/hdezier/code/lng-data/.coverage, *.py",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/*",
+			"-/home/hdezier/code/lng-data/tags/, -/home/hdezier/code/lng-data/code_review/*",
+			"-/home/hdezier/code/lng-data/tags/, -/home/hdezier/code/lng-data/code_review/",
+			"-/home/hdezier/code/lng-data/tags, -/home/hdezier/code/lng-data/code_review/",
+			"-/home/hdezier/code/lng-data/tags/, -/home/hdezier/code/lng-data/code_review/",
+			"",
+			"-/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/code_review/*, /home/hdezier/code/lng-data/",
+			"-/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/code_review/*, /home/hdezier/code/lng-data/etl/extraction/ship_agents/*",
+			"-/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/code_review/*, /home/hdezier/code/lng-data/",
+			"-/home/hdezier/code/lng-data/.coverage/*, -/home/hdezier/code/lng-data/code_review/*, /home/hdezier/code/lng-data/",
+			"-/home/hdezier/code/lng-data/.coverage, -/home/hdezier/code/lng-data/code_review, /home/hdezier/code/lng-data/",
+			"-/home/hdezier/code/lng-data/.coverage, /home/hdezier/code/lng-data/",
+			"-/home/hdezier/code/lng-data/etl/tests, /home/hdezier/code/lng-data/",
+			"/home/hdezier/code/lng-data/",
+			"/home/hdezier/code/lng-data/etl/",
+			"/home/hdezier/code/lng-data/etl/cli/ship_agents",
+			"-build/, -*.jl, -lng-data/tags",
+			"-build/, -*.jl, -lng-data/tags, lng-data/etl/*",
+			"-build/, -*.jl, -lng-data/tags",
+			"-build/, -*.jl, -/lng-data/tags/",
+			"-build/, -*.jl, -/lng-data/tags",
+			"-build/, -*.jl, -/tags",
+			"-build/, -*.jl",
+			"-build/, -*.jl, *_pa.py",
+			"-build/, -*.jl",
+			"-*.jl",
+			"-build/, -*.jl",
+			"-build/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"USELESS_URL",
+			"cargo",
+			"port_name",
+			"handle_httpstatus_list",
+			"Loader",
+			"load_item",
+			"load_",
+			"load",
+			"eta_enforced_provider_id",
+			"cancel_spot_charter",
+			"BaseResource",
+			"compute_arrival_date",
+			"test_status_port_prioritary",
+			"EtaTestCase",
+			"source_eta",
+			"ExecContext",
+			"interface",
+			"fakeReponseWriter",
+			"panic(nil)",
+			"panic()",
+			"return",
+			"t.Errorf",
+			"fmt.Printf",
+			"m.Errorf",
+			"t",
+			"ID",
+			"req",
+			"req *http.Request",
+			"\tif req == nil {\n\t\treturn user.DefaultUser, false\n\t}\n\tcredentials := user.User{}\n\tparser := json.NewDecoder(req.Body)\n\terr := parser.Decode(&credentials)\n\tif err != nil {\n\t\treturn user.DefaultUser, false\n\t}\n",
+			"credentials",
+			"fmt",
+			"jsonStr",
+			"test_password",
+			"redisUser",
+			"fake_user",
+			"s",
+			"Errorf(fmt.Sprintf(",
+			"Errorf(fmt.Sprintf(\"",
+			"t.Errorf(fmt.Sprintf",
+			"t.Fail()",
+			"Log",
+			"t.Fail()",
+			"Log",
+			"HealthCheckHandler",
+			"port_call_history",
+			"fakeRedisUser",
+			"string",
+			"err",
+			"LastName",
+			"FirstName",
+			"OK",
+			"err",
+			"isBasicUserRedis",
+			"isBasicUserPSQL",
+			"hashPassword",
+			"IsBasic",
+			"basicUserRedis",
+			"hashPassword",
+			"User",
+			"\t\treturn false",
+			"UserPublic",
+			"hashPassword",
+			"(req *http.Request) bool",
+			"Validator",
+			"basicUser",
+			"req",
+			"req *http.Request",
+			"fakeHandler, ",
+			"w http.ResponseWriter, ",
+			"w",
+			"FailNow",
+			"t.Fail",
+			"Fail",
+			"txn",
+			"\"Error ",
+			"Error",
+			"txn",
+			"\"",
+			"`test_password`",
+			"`test_login`",
+			"\"login\"",
+			"Login",
+			"Email",
+			"createTables",
+			"eta_enforced_provider_id",
+			"cancelled",
+			"eta_enforced_provider_id",
+			"in vessel_type:",
+			"_merge_eta",
+			"eta_enforced_provider_id",
+			"eta_received_time_utc",
+			"BasicUser",
+			"user",
+			"password",
+			"login",
+			"\t",
+			"\n\t",
+			"ctrl+alt",
+			"http.ResponseWriter{}",
+			"fakeReponseWriter",
+			"handler(nil",
+			"auth.",
+			"fmt",
+			"config_filepath",
+			"string",
+			"authUser",
+			"serveUser",
+			"authorizer",
+			"Authenticator",
+			"Authorizer",
+			"authProtect",
+			"LastName",
+			"listenRoutes",
+			"configFile",
+			"jsonParser",
+			"configFile",
+			"serveIndex",
+			"r",
+			"func_name",
+			"confLocal",
+			"clientLocal",
+			"conf_filepath",
+			"db",
+			"rd",
+			"conf",
+			"client",
+			"Password",
+			"conf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"from etl.extraction.charters.utils.misc import ",
+			"from etl.extraction.charters.utils.misc",
+			"from etl.extraction.charters.utils",
+			"xls_mapper",
+			"parse_date_fixtures_only",
+			"import utils",
+			"eta = utils.get_eta_item()",
+			"spot_charter = {}\n        sport_charter['type'] = 'SpotCharter'",
+			"eta = {}\neta['_type'] = 'ETAEvent'",
+			"settings.LNG_DATA_DIR"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 115.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/hdezier/code/go/src/authserver":
+	{
+		"height": 110.0
+	},
+	"output.9o:///home/hdezier/code/go/src/authserver/auth":
+	{
+		"height": 210.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 98.0
+	},
+	"output.GsComplete.completion-hint-output":
+	{
+		"height": 86.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 86.0
+	},
+	"output.clipboard_manager":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ternfl",
+				"lngspiders/port_authorities_spiders/ternflushing_spider.py"
+			],
+			[
+				"ternf",
+				"lngspiders/port_authorities_spiders/ternflushing_spider.py"
+			],
+			[
+				"pajar",
+				"lngspiders/port_authorities_spiders/pajaritos_spider.py"
+			],
+			[
+				"livor",
+				"lngspiders/port_authorities_spiders/livorno_spider.py"
+			],
+			[
+				"hma",
+				"lngspiders/pa_spiders/hma_spider.py"
+			],
+			[
+				"huelv",
+				"lngspiders/port_authorities_spiders/huelva_spider.py"
+			],
+			[
+				"milf",
+				"lngspiders/port_authorities_spiders/milford_spider.py"
+			],
+			[
+				"hastin",
+				"lngspiders/port_authorities_spiders/hastings_spider.py"
+			],
+			[
+				"ferr",
+				"lngspiders/port_authorities_spiders/ferrol_spider.py"
+			],
+			[
+				"hazi",
+				"lngspiders/port_authorities_spiders/hazira_spider.py"
+			],
+			[
+				"sines",
+				"lngspiders/port_authorities_spiders/sines_spider.py"
+			],
+			[
+				"darwin",
+				"lngspiders/port_authorities_spiders/darwin_spider.py"
+			],
+			[
+				"abidj",
+				"lngspiders/port_authorities_spiders/abidjan_spider.py"
+			],
+			[
+				"bonn",
+				"lngspiders/port_authorities_spiders/bonny_spider.py"
+			],
+			[
+				"cartage",
+				"lngspiders/port_authorities_spiders/cartagena_spider.py"
+			],
+			[
+				"aliaga",
+				"lngspiders/port_authorities_spiders/aliaga_spider.py"
+			],
+			[
+				"dahej",
+				"lngspiders/port_authorities_spiders/dahej_spider.py"
+			],
+			[
+				"local",
+				"local_test.js"
+			],
+			[
+				"colom",
+				"lngspiders/port_authorities_spiders/colombia_spider.py"
+			],
+			[
+				"gwa",
+				"lngspiders/port_authorities_spiders/gwangyang_spider.py"
+			],
+			[
+				"haldia",
+				"lngspiders/port_authorities_spiders/haldia_dock_spider.py"
+			],
+			[
+				"controller",
+				"etl/restful_api/controllers.py"
+			],
+			[
+				"spotcharte",
+				"etl/pipelines/spot_charter.py"
+			],
+			[
+				"dbsch",
+				"etl/orm/db_scheme/port_call.py"
+			],
+			[
+				"update",
+				"etl/algo/spotcharter/update_spot_charter.py"
+			],
+			[
+				"scbas",
+				"etl/scrapinghubretrieve/scbase.py"
+			],
+			[
+				"restfulspo",
+				"etl/restful_api/resource_factory/spot_charter.py"
+			],
+			[
+				"pipespot",
+				"etl/pipelines/spot_charter.py"
+			],
+			[
+				"pipelinspo",
+				"etl/pipelines/spot_charter.py"
+			],
+			[
+				"etlextrspot",
+				"etl/extraction/charters/spot_charters.py"
+			],
+			[
+				"updates",
+				"etl/algo/spotcharter/update_spot_charter.py"
+			],
+			[
+				"kplerex",
+				"etl/cli/data/kpler_extract.py"
+			],
+			[
+				"log",
+				"etl/utils/log.py"
+			],
+			[
+				"genoa",
+				"etl/extraction/port_authorities/genoa_pa.py"
+			],
+			[
+				"etlpipspo",
+				"etl/pipelines/spot_charter.py"
+			],
+			[
+				"spotcharter",
+				"etl/extraction/charters/spot_charters.py"
+			],
+			[
+				"marse",
+				"etl/extraction/port_authorities/marseille_pa.py"
+			],
+			[
+				"eta",
+				"etl/transform/eta.py"
+			],
+			[
+				"updatspo",
+				"etl/algo/spotcharter/update_spot_charter.py"
+			],
+			[
+				"etlrestuflapispo",
+				"etl/restful_api/resource_factory/spot_charter.py"
+			],
+			[
+				"spot",
+				"etl/extraction/charters/spot_charters.py"
+			],
+			[
+				"vessel",
+				"etl/transform/vessel.py"
+			],
+			[
+				"spotc",
+				"etl/extraction/charters/spot_charters.py"
+			],
+			[
+				"handlervessel",
+				"etl/restful_api/handlers/vesselmatcher.py"
+			],
+			[
+				"teseta",
+				"etl/tests/test_eta.py"
+			],
+			[
+				"swi",
+				"etl/extraction/port_authorities/swinoujscie_pa.py"
+			],
+			[
+				"santo",
+				"etl/extraction/port_authorities/santos_pa.py"
+			],
+			[
+				"sal",
+				"etl/extraction/port_authorities/salvador_de_bahia_pa.py"
+			],
+			[
+				"rott",
+				"etl/extraction/port_authorities/rotterdam_pa.py"
+			],
+			[
+				"rio",
+				"etl/extraction/port_authorities/rio_pa.py"
+			],
+			[
+				"ini",
+				"psql/init.go"
+			],
+			[
+				"authte",
+				"auth/auth_test.go"
+			],
+			[
+				"main",
+				"main.go"
+			],
+			[
+				"crontaln",
+				"crontabs/crontab_lng_production"
+			],
+			[
+				"crontaboilpr",
+				"crontabs/crontab_oil_production"
+			],
+			[
+				"crontaboilsta",
+				"crontabs/crontab_oil_staging"
+			],
+			[
+				"oilstagingfo",
+				"configurations/oil_staging/FORECAST_ACTIVATED"
+			],
+			[
+				"dbtestu",
+				"configurations/coal_production/DB_TEST_URL"
+			],
+			[
+				"oilstagingdbtes",
+				"configurations/oil_staging/DB_TEST_URL"
+			],
+			[
+				"oilstagingdata",
+				"configurations/oil_staging/DATABASE_URL"
+			],
+			[
+				"",
+				"etl/transform/eta.py"
+			],
+			[
+				"ennore",
+				"etl/extraction/port_authorities/ennore_pa.py"
+			],
+			[
+				"dun",
+				"lngspiders/port_authorities_spiders/dunkerque_spider.py"
+			],
+			[
+				"psqlin",
+				"psql/init.go"
+			],
+			[
+				"mai",
+				"main.go"
+			],
+			[
+				"hash",
+				"helpers/hash.go"
+			],
+			[
+				"helepr",
+				"helpers/hash.go"
+			],
+			[
+				"conte",
+				"context/types.go"
+			],
+			[
+				"user",
+				"auth/user.go"
+			],
+			[
+				"autte",
+				"auth/auth_test.go"
+			],
+			[
+				"valida",
+				"auth/validators.go"
+			],
+			[
+				"conftest",
+				"conf.test.json"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"milfor",
+				"etl/extraction/port_authorities/milford_pa.py"
+			],
+			[
+				"papie",
+				"etl/extraction/pa_pipeline.py"
+			],
+			[
+				"pampa",
+				"etl/extraction/port_authorities/pampa_pa.py"
+			],
+			[
+				"psqlini",
+				"psql/init.go"
+			],
+			[
+				"redisini",
+				"redis/init.go"
+			],
+			[
+				"red",
+				"redis/init.go"
+			],
+			[
+				"us",
+				"auth/user.go"
+			],
+			[
+				"conjs",
+				"conf.json"
+			],
+			[
+				"dampier",
+				"lngspiders/port_authorities_spiders/dampier_spider.py"
+			],
+			[
+				"dami",
+				"lngspiders/port_authorities_spiders/damietta.py"
+			],
+			[
+				"costa",
+				"lngspiders/port_authorities_spiders/costa_azul_spider.py"
+			],
+			[
+				"autht",
+				"auth/auth_test.go"
+			],
+			[
+				"confjs",
+				"conf.json"
+			],
+			[
+				"conf",
+				"config/init.go"
+			],
+			[
+				"redisi",
+				"redis/init.go"
+			],
+			[
+				"psqi",
+				"psql/init.go"
+			],
+			[
+				"redii",
+				"redis/init.go"
+			],
+			[
+				"psql",
+				"psql/init.go"
+			],
+			[
+				"dc",
+				"Dockerfile"
+			],
+			[
+				"test",
+				"test.go"
+			],
+			[
+				"conrtablpg",
+				"crontabs/crontab_lpg_production"
+			],
+			[
+				"crontaoilpro",
+				"crontabs/crontab_oil_production"
+			],
+			[
+				"oilstagingshcon",
+				"configurations/oil_staging/SH_CONSUMED_TAG"
+			],
+			[
+				"oilstagindataba",
+				"configurations/oil_staging/DATABASE_URL"
+			],
+			[
+				"oilstagindata",
+				"configurations/oil_staging/DATA_DIR"
+			],
+			[
+				"oilstagingshconsu",
+				"configurations/oil_staging/SH_CONSUMED_TAG"
+			],
+			[
+				"dbtesurl",
+				"configurations/coal_production/DB_TEST_URL"
+			],
+			[
+				"oilstagingdbtest",
+				"configurations/oil_staging/DB_TEST_URL"
+			],
+			[
+				"gwangyan",
+				"lngspiders/port_authorities_spiders/gwangyang_spider.py"
+			],
+			[
+				"gwang",
+				"etl/extraction/port_authorities/gwangyang_pa.py"
+			],
+			[
+				"papipe",
+				"etl/extraction/pa_pipeline.py"
+			],
+			[
+				"milford",
+				"etl/extraction/port_authorities/milford_pa.py"
+			],
+			[
+				"match",
+				"etl/algo/spotcharter/match_portcall.py"
+			],
+			[
+				"etlrestufspotchart",
+				"etl/restful_api/resource_factory/spot_charter.py"
+			],
+			[
+				"spotch",
+				"etl/extraction/charters/spot_charters.py"
+			],
+			[
+				"gfiles",
+				"etl/extraction/charters/gfiles_loader.py"
+			],
+			[
+				"etlesutrade",
+				"etl/es_utils/trade.py"
+			],
+			[
+				"session",
+				"etl/orm/session.py"
+			],
+			[
+				"etlsession",
+				"etl/orm/etl_session.py"
+			],
+			[
+				"etltranforsource",
+				"etl/transform/source_data.py"
+			],
+			[
+				"etlormse",
+				"etl/orm/session.py"
+			],
+			[
+				"mixinspotcha",
+				"etl/tests/mixins/spot_charter.py"
+			],
+			[
+				"etltestextracspot",
+				"etl/tests/extraction/test_spot_charters.py"
+			],
+			[
+				"player",
+				"etl/orm/db_scheme/player.py"
+			],
+			[
+				"esuttrade",
+				"etl/es_utils/trade.py"
+			],
+			[
+				"dbschves",
+				"etl/orm/db_scheme/vessel.py"
+			],
+			[
+				"trade",
+				"etl/algo/trade.py"
+			],
+			[
+				"buildite",
+				"etl/extraction/charters/raw_spot_charters/build_items.py"
+			],
+			[
+				"testloadite",
+				"etl/tests/pipelines/spot_charter/test_load_item.py"
+			],
+			[
+				"spotchar",
+				"etl/extraction/charters/spot_charters.py"
+			],
+			[
+				"tesspotcharter",
+				"etl/tests/extraction/test_spot_charters.py"
+			],
+			[
+				"tesspot",
+				"etl/tests/restful_api/test_spot_charter.py"
+			],
+			[
+				"restufspot",
+				"etl/restful_api/resource_factory/spot_charter.py"
+			],
+			[
+				"etlpispot",
+				"etl/pipelines/spot_charter.py"
+			],
+			[
+				"ettespipspot",
+				"etl/tests/pipelines/spot_charter/test_load_item.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 402.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
