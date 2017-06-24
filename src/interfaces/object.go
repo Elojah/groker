@@ -1,22 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   spawnPlayer.go                                     :+:      :+:    :+:   */
+/*   object.go                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/18 16:11:48 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 18:45:02 by hdezier          ###   ########.fr       */
+/*   Created: 2017/06/24 21:19:46 by hdezier           #+#    #+#             */
+/*   Updated: 2017/06/24 21:41:48 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package cmd
+package interfaces
 
-import (
-	"github.com/elojah/groker"
-	"github.com/elojah/groker/scylla"
-)
-
-func spawnPlayer() {
-	scylla.InitCluster(`groker`)
+type ObjectService interface {
 }

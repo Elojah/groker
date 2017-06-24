@@ -6,14 +6,15 @@
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 19:41:14 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 20:25:41 by hdezier          ###   ########.fr       */
+/*   Updated: 2017/06/24 21:58:07 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 package groker
 
 import (
-	"github.com/elojah/groker/geometry"
+	d "github.com/elojah/groker/src/domain"
+	"github.com/elojah/groker/src/utils/geometry"
 )
 
 type Targets int
@@ -47,9 +48,11 @@ func isInZone(a Actor, target Actor) bool {
 
 const (
 	ActorFilter = map[Targets]filterActorFn{
+
 		SELF: func(a Actor, targets chan Actor, options ...filterSkillOptions) chan Actor {
 			<-a
 		},
+
 		CLOSEST_ENEMY: func(a Actor, targets chan Actor, options ...filterSkillOptions) chan Actor {
 			// We compare with QuickRelativeDistance so distance must be at least this
 			closestdistance := SkillZoneWidth + SkillZoneHeight + 1
@@ -71,6 +74,7 @@ const (
 				<-*closestTarget
 			}
 		},
+
 		LOWEST_HP_ENEMY: func(a Actor, targets chan Actor, options ...filterSkillOptions) chan Actor {
 			lowestHP = MaxHp
 			lowestTarget := nil
@@ -90,6 +94,7 @@ const (
 				<-*lowestTarget
 			}
 		},
+
 		ALL_ENEMIES: func(a Actor, targets chan Actor, options ...filterSkillOptions) chan Actor {
 			for target := range targets {
 				if !filterOptions(a, target, options...) {

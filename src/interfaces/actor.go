@@ -1,28 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   object.go                                          :+:      :+:    :+:   */
+/*   actor.go                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/18 17:35:00 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 18:50:30 by hdezier          ###   ########.fr       */
+/*   Created: 2017/06/24 21:16:49 by hdezier           #+#    #+#             */
+/*   Updated: 2017/06/24 21:57:31 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package groker
+package interfaces
 
-import (
-	"github.com/elojah/groker/geometry"
-)
+type ActorService interface {
+	New() (ActorID, error)
+	Delete(ActorID) error
 
-type ObjectID int
+	UpdatePosition(ActorID, geometry.Vec2) error
+	UpdateStats(ActorID, Stats) error
 
-type Object struct {
-	id       ObjectID
-	position geometry.Point
-	region   geometry.Rect `"index":"true"`
-}
-
-type ObjectService interface {
+	AddSkill(ActorID, SkillID, Skill) error
+	DeleteSkill(ActorID, SkillID) error
 }

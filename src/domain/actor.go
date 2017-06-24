@@ -6,14 +6,14 @@
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 17:34:50 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 20:25:13 by hdezier          ###   ########.fr       */
+/*   Updated: 2017/06/24 21:48:06 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 package groker
 
 import (
-	"github.com/elojah/groker/geometry"
+	"github.com/elojah/groker/src/utils/geometry"
 )
 
 type ActorID int
@@ -25,7 +25,7 @@ type Actor struct {
 	skills   []Skill `"id_only":"true"`
 }
 
-func (a Actor) GetSurroundRect() geometry.Rect {
+func (a Actor) GetSurroundingSkillZone() geometry.Rect {
 	return geometry.Rect{
 		o: Point{
 			x: a.position.x - SkillZoneWidth/2,
@@ -52,21 +52,7 @@ func (a Actor) Exec(sID SkillID, es EntitiesService, ss SkillService) error {
 	// Double loop, be careful here...
 	for subSkill := range skill.subs {
 		for target := range ActorFilter[subSkill.targets](a, targets, IsInZone(subSkill.area)) {
-
+			_ = subSkill.mono.Affect(target)
 		}
 	}
-}
-
-type ActorService interface {
-	New() (ActorID, error)
-	Delete(ActorID) error
-
-	UpdatePosition(ActorID, geometry.Vec2) error
-	UpdateStats(ActorID, Stats) error
-
-	AddSkill(ActorID, SkillID, Skill) error
-	DeleteSkill(ActorID, SkillID) error
-
-	Exec(ActorID, SkillID) error
-	Receive(ActorID, MonoSkill) error
 }
