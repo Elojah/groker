@@ -4,18 +4,6 @@
 		"selected_items":
 		[
 			[
-				"Mon",
-				"MonoSkill\tstruct ʈ"
-			],
-			[
-				"subsi",
-				"subSkill\t ν"
-			],
-			[
-				"Upda",
-				"UpdatePosition"
-			],
-			[
 				"raw",
 				"raw_eta_data"
 			],
@@ -514,6 +502,18 @@
 			[
 				"Spot",
 				"SpotCharterLoader"
+			],
+			[
+				"str",
+				"str\tclass"
+			],
+			[
+				"fix",
+				"fixture"
+			],
+			[
+				"no",
+				"now\tfunction"
 			]
 		]
 	},
@@ -1001,7 +1001,6 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"GetSurroundRect",
 			"USELESS_URL",
 			"cargo",
 			"port_name",
@@ -1128,7 +1127,8 @@
 			"rd",
 			"conf",
 			"client",
-			"Password"
+			"Password",
+			"conf"
 		],
 		"highlight": true,
 		"in_selection": false,

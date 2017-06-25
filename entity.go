@@ -5,35 +5,36 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/18 14:02:37 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/24 21:26:49 by hdezier          ###   ########.fr       */
+/*   Created: 2017/06/17 16:40:01 by hdezier           #+#    #+#             */
+/*   Updated: 2017/06/18 18:57:56 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package scylla
+package actor
 
 import (
-	"github.com/elojah/groker/src/utils/geometry"
-	"github.com/gocql/gocql"
+	"github.com/elojah/groker/geometry"
 )
 
-type UUID int
+const (
+	/*
+		All skills must have a range < (min(SkillZoneWidth, SkillZoneHeight) / 2 - 1)
+	*/
+	SkillZoneWidth  = 21
+	SkillZoneHeight = 21
+)
 
-/*
-	Implement: Actor, Entity
-*/
-type Actor struct {
-	id       UUID `"create":"PRIMARY KEY"`
-	position geometry.Point
-	stats    Stats
-	skills   []Skill
+type Entity interface {
+	GetPosition()
 }
 
 /*
-	Implement: Object, Entity
+	TODO !!! Use this type to filter ASAP potential targets only (enemies/allies/etc.)
 */
-type Object struct {
-	id       UUID `"create":"primary key"`
-	position geometry.Point
-	region   geometry.Rect `"index":"true"`
+type ZoneFilter interface {
+}
+
+type EntitiesService interface {
+	GetActors(ZoneFilter) (chan Actor, error)
+	GetObjects(ZoneFilter) (chan Object, error)
 }
