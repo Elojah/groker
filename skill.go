@@ -6,22 +6,21 @@
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 15:55:28 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 20:23:22 by hdezier          ###   ########.fr       */
+/*   Updated: 2017/06/29 15:16:46 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package scylla
+package groker
 
 import (
-	"github.com/elojah/groker/geometry"
+	"github.com/elojah/groker/utils/geometry"
 )
 
-type SkillID int
-type SkillValue int
 type Effect int
 
 const (
-	DMG Effect = iota
+	NONE Effect = iota
+	DMG
 	HEAL
 	DRAIN
 	CONTROL
@@ -46,26 +45,48 @@ type Area struct {
 	h     geometry.Val
 }
 
+/*
+	Value of dmg, heal, etc.
+*/
+type SkillValue int
+
 type MonoSkill struct {
-	value  SkillValue
-	effect Effect
+	Value  SkillValue
+	Effect Effect
 }
 
 type SubSkill struct {
-	mono    MonoSkill
-	targets Targets
-	area    Area
+	Mono    MonoSkill
+	Targets Targets
+	Area    Area
 }
 
+const (
+	/*
+		All skills must have a range < (min(SkillZoneWidth, SkillZoneHeight) / 2 - 1)
+	*/
+	SkillZoneWidth  = 21
+	SkillZoneHeight = 21
+)
+
+type SkillID int
+
 type Skill struct {
-	id   SkillID `"create":"PRIMARY KEY"`
-	subs []SubSkill
+	Id   SkillID `"create":"PRIMARY KEY"`
+	Subs []SubSkill
+}
+
+/*
+	TODO !!! Use this type to filter ASAP potential targets only (enemies/allies/etc.)
+*/
+type ZoneFilter interface {
 }
 
 /*
 	TODO !!!
 */
-func (s Skill) GetFilters(a Actor) ZoneFilter {
+func (s Skill) GetFilters(a Actor) []ZoneFilter {
+	return []ZoneFilter{}
 }
 
 type SkillService interface {

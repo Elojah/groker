@@ -1,19 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.go                                            :+:      :+:    :+:   */
+/*   types.go                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/17 16:47:37 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/17 17:52:04 by hdezier          ###   ########.fr       */
+/*   Created: 2017/06/17 16:25:46 by hdezier           #+#    #+#             */
+/*   Updated: 2017/06/29 15:07:27 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-package main
+package geometry
 
-import ()
+type Val int
 
-func main() {
+type Point struct {
+	X Val
+	Y Val
+}
 
+type Rect struct {
+	O Point
+	H Val
+	W Val
+}
+
+type Vec2 struct {
+	X Val
+	Y Val
 }

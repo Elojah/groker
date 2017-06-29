@@ -6,7 +6,7 @@
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 19:12:56 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 20:05:45 by hdezier          ###   ########.fr       */
+/*   Updated: 2017/06/29 15:09:36 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,5 +23,5 @@ func abs(a Val) Val {
 	}
 }
 func QuickRelativeDistance(a Point, b Point) Val {
-	return (abs(a.x-b.x) + abs(a.y-b.y))
+	return (abs(a.X-b.X) + abs(a.Y-b.Y))
 }

@@ -13,7 +13,7 @@
 package groker
 
 import (
-	"github.com/elojah/groker/geometry"
+	"github.com/elojah/groker/utils/geometry"
 )
 
 type ObjectID int

@@ -13,7 +13,7 @@
 package scylla
 
 import (
-	"github.com/elojah/groker/geometry"
+	"github.com/elojah/groker/utils/geometry"
 	"github.com/gocql/gocql"
 )
 

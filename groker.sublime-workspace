@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"Val",
+				"Value"
+			],
+			[
+				"Mon",
+				"MonoSkill\t(actor.go)"
+			],
+			[
+				"pack",
+				"package interfaces\t ʂ"
+			],
+			[
+				"subsi",
+				"subSkill\t ν"
+			],
+			[
+				"Upda",
+				"UpdatePosition"
+			],
+			[
 				"raw",
 				"raw_eta_data"
 			],
@@ -154,10 +174,6 @@
 			[
 				"Hand",
 				"HandleCtx\t(types.go)"
-			],
-			[
-				"pack",
-				"package context\t ʂ"
 			],
 			[
 				"int",
@@ -498,22 +514,6 @@
 			[
 				"arrival",
 				"arrival_zone\t(charter.py)"
-			],
-			[
-				"Spot",
-				"SpotCharterLoader"
-			],
-			[
-				"str",
-				"str\tclass"
-			],
-			[
-				"fix",
-				"fixture"
-			],
-			[
-				"no",
-				"now\tfunction"
 			]
 		]
 	},
@@ -525,9 +525,17 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "git bl",
+		"last_filter": "dele",
 		"selected_items":
 		[
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"prefr",
+				"Preferences: Settings"
+			],
 			[
 				"git bl",
 				"Git: Blame"
@@ -803,6 +811,32 @@
 	},
 	"file_history":
 	[
+		"/home/hdezier/code/go/src/github.com/elojah/groker/skill.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/entity.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/object.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/target.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/scylla/entity.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/.git/COMMIT_EDITMSG",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/cmd/spawn_player/main.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/domain/skill.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/domain/target.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/usecases/target.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/domain/stats.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/domain/object.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/domain/actor.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/cmd/spawnPlayer.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/interfaces/stats.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/interfaces/skill.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/interfaces/object.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/interfaces/actor.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/services/scylla/entity.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/domain/entity.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/src/interfaces/entity.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/core/target.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/core/stats.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/core/skill.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/core/actor.go",
+		"/home/hdezier/code/go/src/github.com/elojah/groker/core/main.go",
 		"/home/hdezier/code/kp-scrapers/lngspiders/port_authorities_spiders/ternflushing_spider.py",
 		"/home/hdezier/.gitconfig",
 		"/home/hdezier/code/ct-pipeline/.git/COMMIT_EDITMSG",
@@ -904,33 +938,7 @@
 		"/home/hdezier/code/ct-pipeline/etl/extraction/ais/ais_loader.py",
 		"/usr/lib/python2.7/contextlib.py",
 		"/usr/local/lib/python2.7/dist-packages/sqlalchemy/orm/session.py",
-		"/home/hdezier/code/ct-pipeline/etl/tests/mixins/spot_charter.py",
-		"/home/hdezier/code/ct-pipeline/etl/pipelines/eta.py",
-		"/home/hdezier/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
-		"/home/hdezier/code/meuh/sandbox/hdezier/config/ubuntu/packages.json",
-		"/home/hdezier/test/rust/tuto/src/lib.rs",
-		"/home/hdezier/test/test.rs",
-		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/vessel.py",
-		"/home/hdezier/code/ct-pipeline/etl/algo/trade.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/trade.py",
-		"/home/hdezier/code/ct-pipeline/etl/tests/restful_api/test_spot_charter.py",
-		"/home/hdezier/code/ct-pipeline/etl/tests/mixins/player.py",
-		"/usr/local/lib/python2.7/dist-packages/Flask_RESTful-0.3.5-py2.7.egg/flask_restful/__init__.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/db_scheme/charter.py",
-		"/home/hdezier/code/ct-pipeline/etl/restful_api/resource_factory/port_call.py",
-		"/home/hdezier/code/ct-pipeline/etl/extraction/ais/shipSpottingPositions.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/helpers/enum_helper.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/1f26fa5bfd9_change_external_flow_type_to_use_enum.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/2a599b32a572_add_fixture_source_eta.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/505a5a89be5a_modify_port_call_model_for_spot_charter.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/675116ab871_rm_trade_status.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/3359e7e94143_several_unlocodes_per_zones.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/5451ed5bf88_change_enum_of_trade_link_constraint.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/512d09bb6c0b_add_is_option_column_spot_charter.py",
-		"/home/hdezier/code/ct-pipeline/etl/utils/lock.py",
-		"/home/hdezier/code/ct-pipeline/etl/cli/data/refresh_controllers.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/27a97ae336a8_add_enum_in_port_call_table.py",
-		"/home/hdezier/code/ct-pipeline/etl/orm/alembic/versions/117d3ec132e1_spot_charter_status_enum.py"
+		"/home/hdezier/code/ct-pipeline/etl/tests/mixins/spot_charter.py"
 	],
 	"find":
 	{
@@ -1001,6 +1009,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"SkillValue",
+			"es",
+			"MoneSkkill",
+			"SkillValue",
+			"Exec",
+			"\"github.com/elojah/groker/geometry\"",
+			"domain",
+			"\"github.com/elojah/groker/geometry\"",
+			"GetSurroundRect",
 			"USELESS_URL",
 			"cargo",
 			"port_name",
@@ -1119,16 +1136,7 @@
 			"configFile",
 			"serveIndex",
 			"r",
-			"func_name",
-			"confLocal",
-			"clientLocal",
-			"conf_filepath",
-			"db",
-			"rd",
-			"conf",
-			"client",
-			"Password",
-			"conf"
+			"func_name"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1136,6 +1144,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"github.com/elojah/groker/utils/geometry\"",
+			"groker",
+			"\"github.com/elojah/groker/src/utils/geometry\"",
 			"from etl.extraction.charters.utils.misc import ",
 			"from etl.extraction.charters.utils.misc",
 			"from etl.extraction.charters.utils",
@@ -1169,17 +1180,31 @@
 				0,
 				0,
 				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
 				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.450708564387,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.769383697813,
 			1.0
 		]
 	},
@@ -1224,6 +1249,58 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"stats",
+				"stats.go"
+			],
+			[
+				"skil",
+				"skill.go"
+			],
+			[
+				"tar",
+				"src/domain/target.go"
+			],
+			[
+				"domskil",
+				"src/domain/skill.go"
+			],
+			[
+				"domobj",
+				"src/domain/object.go"
+			],
+			[
+				"acto",
+				"src/domain/actor.go"
+			],
+			[
+				"skill",
+				"src/domain/skill.go"
+			],
+			[
+				"objec",
+				"src/interfaces/object.go"
+			],
+			[
+				"inteac",
+				"src/interfaces/actor.go"
+			],
+			[
+				"actorgo",
+				"src/domain/actor.go"
+			],
+			[
+				"interfaceski",
+				"src/interfaces/skill.go"
+			],
+			[
+				"interenti",
+				"src/interfaces/entity.go"
+			],
+			[
+				"domainen",
+				"src/domain/entity.go"
+			],
 			[
 				"ternfl",
 				"lngspiders/port_authorities_spiders/ternflushing_spider.py"
@@ -1683,58 +1760,6 @@
 			[
 				"mixinspotcha",
 				"etl/tests/mixins/spot_charter.py"
-			],
-			[
-				"etltestextracspot",
-				"etl/tests/extraction/test_spot_charters.py"
-			],
-			[
-				"player",
-				"etl/orm/db_scheme/player.py"
-			],
-			[
-				"esuttrade",
-				"etl/es_utils/trade.py"
-			],
-			[
-				"dbschves",
-				"etl/orm/db_scheme/vessel.py"
-			],
-			[
-				"trade",
-				"etl/algo/trade.py"
-			],
-			[
-				"buildite",
-				"etl/extraction/charters/raw_spot_charters/build_items.py"
-			],
-			[
-				"testloadite",
-				"etl/tests/pipelines/spot_charter/test_load_item.py"
-			],
-			[
-				"spotchar",
-				"etl/extraction/charters/spot_charters.py"
-			],
-			[
-				"tesspotcharter",
-				"etl/tests/extraction/test_spot_charters.py"
-			],
-			[
-				"tesspot",
-				"etl/tests/restful_api/test_spot_charter.py"
-			],
-			[
-				"restufspot",
-				"etl/restful_api/resource_factory/spot_charter.py"
-			],
-			[
-				"etlpispot",
-				"etl/pipelines/spot_charter.py"
-			],
-			[
-				"ettespipspot",
-				"etl/tests/pipelines/spot_charter/test_load_item.py"
 			]
 		],
 		"width": 0.0
@@ -1764,7 +1789,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 402.0,
+	"side_bar_width": 297.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

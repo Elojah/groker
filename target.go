@@ -6,14 +6,14 @@
 /*   By: hdezier <hdezier@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 19:41:14 by hdezier           #+#    #+#             */
-/*   Updated: 2017/06/18 20:25:41 by hdezier          ###   ########.fr       */
+/*   Updated: 2017/06/29 15:06:16 by hdezier          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 package groker
 
 import (
-	"github.com/elojah/groker/geometry"
+	"github.com/elojah/groker/utils/geometry"
 )
 
 type Targets int
@@ -39,10 +39,6 @@ func filterOptions(a Actor, target Actor, options ...filterSkillOptions) bool {
 		}
 	}
 	return true
-}
-
-func isInZone(a Actor, target Actor) bool {
-
 }
 
 const (
